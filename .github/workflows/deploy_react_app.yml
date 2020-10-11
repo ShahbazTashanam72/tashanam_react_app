@@ -37,7 +37,7 @@ jobs:
         run: npm install -g surge
       
       - name: Deploing on Surge
-        run: surge ./ build https://tashanam_react_app.surge.sh/ surge --token ${{secrets.tash_surge_token}}
+        run: surge ./ build https://tashanam_react_app.surge.sh surge --token ${{secrets.tash_surge_token}}
         
           
           
